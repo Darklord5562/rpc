@@ -1,0 +1,27 @@
+body{
+  height: 90vh;
+  width: 100vw;
+  background: #6A76F9;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+}
+.big{
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border: 5px solid #2336FF;
+  justify-content: center;
+  align-items: center;
+}
+img{
+  max-height: 150px;
+  max-width: 150px;
+  margin: auto;
+}
