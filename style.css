@@ -20,6 +20,19 @@ body{
   justify-content: center;
   align-items: center;
 }
+.round-box{
+  font-size: 30px;
+  height: 50px;
+  align-items: center;
+  padding: 20px;
+  display: flex;
+  background: hsl(0, 0%, 100%);
+}
+#round{
+  font-weight: bold;
+  
+}
+
 img{
   max-height: 150px;
   max-width: 150px;
