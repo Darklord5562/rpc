@@ -18,7 +18,8 @@
 var cd = document.getElementById('code')
   var push = new Notification();
   push.requestPermission()
-  
+  var flag = push.permisson
+  alert(flag)
   alert(`${push}`)
   console.log(push)
   
