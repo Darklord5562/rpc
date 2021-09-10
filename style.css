@@ -1,26 +1,32 @@
-body{
+body {
   height: 90vh;
   width: 100vw;
   background: #6A76F9;
 }
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-.container{
+.container {
+  width: 100%;
   display: flex;
   flex-direction: column;
 }
-.big{
+.cont{
+  width: 100%;
+  justify-content: center;
+}
+.big {
   height: 200px;
   width: 200px;
   border-radius: 50%;
-  border: 5px solid #2336FF;
+  border: 5px solid #02A5FF;
   justify-content: center;
   align-items: center;
+  background: #C5CAFF;
 }
-.round-box{
+.round-box {
   font-size: 30px;
   height: 50px;
   align-items: center;
@@ -28,13 +34,32 @@ body{
   display: flex;
   background: hsl(0, 0%, 100%);
 }
-#round{
+#round {
   font-weight: bold;
-  
 }
-
-img{
+img {
   max-height: 150px;
   max-width: 150px;
   margin: auto;
+}
+.box {
+  padding: 20px;
+  border-bottom: 2px solid #9F00FF;
+}
+#comp-res,
+#user-res {
+  display: grid;
+  place-items: center;
+}
+.action {
+  width: 100%;
+  display: flex;
+  background: red;
+}
+.action img {
+  padding: 10px;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background: #DECA5A;
 }
